@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 import cv from "../assets/CvNS.pdf";
+import foto from "../assets/foto.jpg";
 
 function Hero() {
   const socialLinks = [
@@ -111,7 +112,7 @@ function Hero() {
           <div className="hero-photo-glow"></div>
 
           <div className="hero-photo">
-            <img src="/src/assets/foto.jpg" alt="Nahuel Storace" />
+            <img src={foto} alt="Nahuel Storace" />
           </div>
 
           {/* REDES */}
